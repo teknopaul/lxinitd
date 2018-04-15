@@ -1,3 +1,4 @@
+<img src="doc/lxinitd-text-small.png" style="float:right"/>
 # lxinitd
 
 A shell for starting LXC containers.
@@ -8,7 +9,7 @@ The project consists of `rosh` a readonly shell and `lxinitd` extensions for `/s
 
 `lxinitd` provides a minimal [systemd](https://www.freedesktop.org/wiki/Software/systemd/) alternative.
 
-All projects use a common scripting syntax called "litesh".
+topAll projects use a common scripting syntax called "litesh".
 
 # Intall
 

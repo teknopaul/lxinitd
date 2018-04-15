@@ -1,0 +1,2 @@
+# git-build-recipe format 0.4 deb-version VERSION
+https://github.com/teknopaul/lxinitd.git master

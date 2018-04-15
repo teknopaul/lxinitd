@@ -2,3 +2,4 @@ doc-internal/
 target/
 .bzr/
 .bzrignore
+deploy/lxinitd.recipe
