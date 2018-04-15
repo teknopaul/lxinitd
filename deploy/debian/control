@@ -1,0 +1,10 @@
+Source: lxinitd
+Section: admin
+Maintainer: teknopaul <me@teknopaul.com>
+Build-Depends: debhelper (>=9), musl, musl-dev, musl-tools
+
+Package: lxinitd
+Architecture: any
+Description: A systemd alternative for Ubuntu LXC containers.
+Depends: 
+
