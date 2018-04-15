@@ -11,14 +11,19 @@ The project consists of `rosh` a readonly shell and `lxinitd` extensions for `/s
 
 topAll projects use a common scripting syntax called "litesh".
 
-# Intall
+# Install
 
 	make
 	sudo make install
 	
-Or install the `.deb`
+Or install the `.deb` from [download.tp23.org](http://download.tp23.org/)
 
-Create containers with 
+Or install from ppa
+
+	sudo add-apt-repository ppa:teknopaul/lxinitd
+	sudo apt-get update
+
+Create containers with
 
 	lxc-create -t lxinitd
 
