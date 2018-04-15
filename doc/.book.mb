@@ -1,0 +1,10 @@
+
+# lxinitd manual
+
+A Linux init system for LXC containers.
+
+short_name: lxinitd
+
+author: teknopaul
+
+copyright: GPLv3

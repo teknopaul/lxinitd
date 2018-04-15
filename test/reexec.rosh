@@ -1,0 +1,6 @@
+#!/bin/lxinitd
+#
+# reexec must be the last command
+#
+
+reexec ./reexec.sh

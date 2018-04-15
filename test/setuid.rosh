@@ -1,0 +1,9 @@
+#!/bin/rosh
+#
+# lower privs
+#
+
+setuid 1005 1003
+
+/bin/touch /tmp/uid-1005.text
+

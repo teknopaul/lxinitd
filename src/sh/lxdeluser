@@ -1,0 +1,27 @@
+#!/bin/bash
+#
+# delete users from an lxc container, presumes created with lxpasswd
+#
+if [ "$PWD" == / ]
+then
+    echo "Danger: not in an lxc rootfs"
+    exit 1
+fi
+
+username=$1
+
+if [-z "$username" ]
+then
+    echo "Delete a users from an LXC container's rootfs,  first
+Usage:
+    cd /var/lib/lxc/mycont/rootfs
+    lxdeluser username"
+    exit 1
+fi
+
+if [[ $(basename $PWD) == rootfs ]] && [[ -d etc/ ]]
+then
+    sed -i "s/^$username:.*\$//" etc/group
+    sed -i "s/^$username:.*\$//" etc/passwd
+    sed -i "s/^$username:.*\$//" etc/shadow
+fi

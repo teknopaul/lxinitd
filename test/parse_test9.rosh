@@ -1,0 +1,11 @@
+#!/bin/rosh
+
+line1 "hello world"
+line2 "hello" "world"
+line3 "hello" world
+line4 "hello" "world" ""
+line5 "" "" ""
+line6 ""
+line7 "you can \"quote\" me on that"
+line8 "foo\\baa"
+

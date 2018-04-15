@@ -1,0 +1,9 @@
+status: reported
+reporter: teknopaul
+responsible: nobody
+modified: 2018-04-02T11:02:09
+created: 2018-04-02T11:02:09
+priority: 9
+type: bug
+
+init signal handlers after reaching the end of the script

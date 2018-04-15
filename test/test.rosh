@@ -1,0 +1,12 @@
+#!/bin/rosh
+#
+#  run other scripts
+#
+
+./run1.sh
+
+#
+# N.B. "9|asdf" is just an argument ther are no pipes
+#
+./run2.sh 1 2 3 4 5 6 7 8 9|asdf
+

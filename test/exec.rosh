@@ -1,0 +1,11 @@
+#!/bin/rosh
+#
+#  test exec funtionality
+#
+
+echo running...
+./wait.sh
+
+echo and again...
+exec ./wait.sh
+

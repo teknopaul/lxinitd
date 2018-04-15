@@ -1,0 +1,8 @@
+#!/bin/lxinitd
+#
+# test spawning services
+#
+
+respawn /bin/sleep 23
+respawn /bin/sleep 24
+respawn /bin/sleep 25

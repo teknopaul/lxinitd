@@ -1,0 +1,6 @@
+#!/bin/rosh
+
+cd subdir
+
+./run1.sh
+

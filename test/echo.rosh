@@ -1,0 +1,4 @@
+#!/bin/rosh
+
+echo foo $USER
+

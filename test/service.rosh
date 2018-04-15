@@ -1,0 +1,3 @@
+#!/bin/lxinitd
+
+service ./service.pid ./service.sh
