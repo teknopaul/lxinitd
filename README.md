@@ -16,7 +16,7 @@ topAll projects use a common scripting syntax called "litesh".
 	make
 	sudo make install
 	
-Or install the `.deb` from [download.tp23.org](http://download.tp23.org/)
+Or install the `.deb` from [download.tp23.org](http://download.tp23.org/#deb)
 
 Or install from ppa
 

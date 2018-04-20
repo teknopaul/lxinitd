@@ -34,7 +34,7 @@ target/lxmenu: $(LXMENU_SOURCES) src/lxmenu.h
 	${CC} ${CFLAGS} -Wall -Werror $(LXMENU_SOURCES) -static -o $@ ${LDFLAGS}
 	${SUPER_STRIP} $@
 
-target/lxpasswd: src/lxpasswd.c
+	target/lxpasswd: src/lxpasswd.c
 	${CC} -Wall -Werror src/lxpasswd.c -lcrypt -static -o $@ ${LDFLAGS}
 	${SUPER_STRIP} $@
 
@@ -61,7 +61,7 @@ distclean: clean
 	rm -rf target/
 
 install:
-	@mkdir -p ${DESTDIR}${PREFIX}
+	@mkdir -p ${DESTDIR}${PREFIX} ${DESTDIR}/usr/sbin
 	install target/lxinitd ${DESTDIR}${PREFIX}
 	install target/rosh ${DESTDIR}${PREFIX}
 	install target/noopsh ${DESTDIR}${PREFIX}
